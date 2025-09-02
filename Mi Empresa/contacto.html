@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antho shop</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <a href="inicio.html">inicio</a>
+        <a href="productos.html">productos</a>
+        <a href="nosotras.html">nosotros</a>
+    </div>
+    <div style="text-align: center;">
+        <h1>Contactanos</h1>
+        <p>Atendemos 24/7</p>
+        <img src="imagenes/equipo.webp" width="30%">
+        <iframe src="https://maps.app.goo.gl/b4sZqzJaWQrTRG83A" width="600" height="450" style="border: 0;" allowfullscreen="" loding="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+    </div>
+    <div style="text-align: center;">
+        <h2>Escribenos para tener el gusto de atenderte y enviarte nuestro catalogo</h2>
+        <form>
+            <label>nombre:</label>
+            <input type="text" placeholder="En mayuscula"> <br>
+            <label>telefono</label>
+            <input readonly type="number"><br>
+            <label>correo</label>
+            <input type="email" required> <br>
+            <label>fecha nacimiento:</label>
+            <input type="date" min="1980-01-31" max="2007"><br>
+            <label>edad:</label>
+            <input type="number" min="18" max="50"> <br>
+            <label>sube una foto:</label>
+            <input type="file" accept=".jpn, png, jpeg"> <br>
+            <label>selecciona un genero</label>
+            <input type="radio" name="genero" value="hombre">hombre
+            <input type="radio" name="genero" value="mujer">mujer
+            <input type="radio" name="genero" value="otro">otro
+            <br>
+            <label>Selecciona productos</label> <br>
+            <input type="checkbox" name="producto" value="AF1">AF1
+            <input type="checkbox" name="producto" value="DC">DC
+            <input type="checkbox" name="producto" value="jordan">jordan
+            <br>
+            <label>¿Como te contactamos?</label>
+            <select name="contacto">
+                <option value="Celular">celular</option>
+                <option value="Correo">correo</option>
+                <option value="Humo">señales dehumo</option>
+                <option value="paloma">paloma mensajera</option>
+            </select>
+            <br>
+            <label>mensaje:</label>
+            <br>
+            <textarea name="mensaje"></textarea>
+        
+
+            <br> <br> <br>
+            <button type="submit">enviar</button>
+            <button type="reset">borrar</button>
+
+        </form>
+
+    </div>
+</body>
+</html>
